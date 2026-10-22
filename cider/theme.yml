@@ -1,0 +1,7 @@
+name: Noctalia
+author: Noctalia Community
+version: "0.1.0"
+stylesheets:
+  - name: Noctalia Dynamic
+    file: noctalia.scss
+    description: Dynamic colors from Noctalia Shell

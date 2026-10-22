@@ -1,0 +1,23 @@
+[catalog.cider]
+name = "Cider"
+category = "audio"
+
+[templates.cider]
+input_path = "cider.scss"
+output_path = "$XDG_CONFIG_HOME/sh.cider.genten/themes/noctalia/noctalia.scss"
+requires_path = "~/.config/sh.cider.genten"
+
+[templates.cider_metadata]
+input_path = "theme.yml"
+output_path = "$XDG_CONFIG_HOME/sh.cider.genten/themes/noctalia/theme.yml"
+requires_path = "~/.config/sh.cider.genten"
+
+[templates.cider_flatpak]
+input_path = "cider.scss"
+output_path = "~/.var/app/sh.cider.Cider/config/sh.cider.genten/themes/noctalia/noctalia.scss"
+requires_path = "~/.var/app/sh.cider.Cider/config/sh.cider.genten"
+
+[templates.cider_metadata_flatpak]
+input_path = "theme.yml"
+output_path = "~/.var/app/sh.cider.Cider/config/sh.cider.genten/themes/noctalia/theme.yml"
+requires_path = "~/.var/app/sh.cider.Cider/config/sh.cider.genten"
