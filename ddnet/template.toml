@@ -1,0 +1,8 @@
+[catalog.ddnet]
+name = "DDNet / TClient"
+category = "gaming"
+
+[templates.ddnet]
+input_path = "ddnet.cfg"
+output_path = "$XDG_DATA_HOME/ddnet/noctalia.cfg"
+post_hook = "bash '{{ config_dir }}/apply.sh'"
