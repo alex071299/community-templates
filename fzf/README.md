@@ -21,4 +21,4 @@ source "$HOME/.config/fzf/themes/noctalia.fish"
 
 Adjust the paths if you use a custom config directory. There is no hook to edit your shell startup files or reload an existing shell; source the file yourself to apply newly generated colors.
 
-Both snippets append color options instead of replacing existing options. Repeated sourcing adds another copy. The Fish snippet uses `set -Ux`, so it persists the exported value as a universal variable; repeated shell startups can also accumulate color options. Keep a copy of your original `FZF_DEFAULT_OPTS` if you need to restore it.
+Both snippets replace previously applied Noctalia color options when sourced again, including after a palette change, while preserving unrelated `FZF_DEFAULT_OPTS` settings. The Fish snippet persists its options using universal variables.
